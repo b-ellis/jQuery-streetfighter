@@ -34,25 +34,15 @@ $(document).keydown(function(event) {
 		$('.ryu-ready').hide();
 		$('.ryu-cool').show();
 	}
-<<<<<<< HEAD
-	})
+});
+
 $(document).keyup(function(event) {
 	if (event.which == 88) {
 		$('.ryu-cool').hide();
 		$('.ryu-still').show();
 	}
 });
-=======
-	});
 
-	$(document).keyup(function(event) {
-		if (event.which == 88) {
-			$('.ryu-still').show();
-			$('.ryu-cool').hide();
-		}
-	});
-
->>>>>>> ea9e1c974ee5cb5f0c75f60a796600e5a72d7065
 });
 
 function playHadouken () {
